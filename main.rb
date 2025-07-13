@@ -1,6 +1,6 @@
 def lul (i = "", j = "")
     print "какой ты RYTP хочеш? "
-    name = gets.chomp j
-    print name,i
+    j = gets.chomp
+    print j,i
 end
 lul(" RYTP","#{}")
